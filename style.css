@@ -188,17 +188,133 @@ h3.card-title.text-left.mb-3.mt-3.ml-34.mr-34{
     margin-bottom: 10px;
 }
 
- .accordion-item{
-background-color: #444444;
+button.accordion-button.collapsed {
+    background-color:#D6D6D6;
+    border-color: grey;
+    color: #333333;
+}
+/*
+.accordion-button::before {
+        flex-shrink: 0;
+        width: var(--bs-accordion-btn-icon-width);
+        height: var(--bs-accordion-btn-icon-width);
+        margin-right: auto;
+        content: "";
+        background-image: var(--bs-accordion-btn-icon);
+        background-repeat: no-repeat;
+        background-size: var(--bs-accordion-btn-icon-width);
+        transition: var(--bs-accordion-btn-icon-transition);
+}*/
+
+
+/*STATS*/
+
+
+.stats{
+    height:391px;
+    background-color:black;
+    background-image:url(/Images/world-map.svg)
+    
 }
 
-/*world map*/
+.white-circle{
+    height:90px;
+    width:90px;
+    border-radius:50px;
+    background-color: white;
+}
 
-.world-map.statistis.circle{
-    background-color: #FF7000;
-    height:9000px;
-    width:9000px;
+
+.volunteer-heading span{
+    color:#FF7000;
+}
+
+.card-text h3 {
+    color: #FF7000;
+}
+
+.col-md-9 h4 {
+color: #333333;
+opacity: 0.5;
+}
+
+.volunteer-info{
+height:430px;
+background-color: #FF7000;
+margin-bottom: 40px;
+position:relative;
+}
+
+.volunteer-info button{
+background-color: #444444;
+color:white;
+border:2px solid #444444;
+border-radius: 5px;
+position:absolute;
+left:30%;
+}
+
+.icon-volunteer svg{
+    padding-top:40px;
+    height:68px;
+    width:69px;
+}
+
+.events{
+    height:1037px;
+    background-color: #222222;
+    padding-bottom: 130px;
+   
+}
+
+.events h1{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 69px;
+    padding-bottom:10px;
+    padding-top:30px;
+}
     
-    position:absolute;
-    margin:auto;
-    }
+
+.h1-events span{
+    color:#FF7000;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 69px;
+      
+}
+.col-md-6-header2 .line{
+    height:3px;
+    width:100px;
+    background-color:white;
+}
+
+.p-events{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color:#666666;
+padding-top:50px;
+}
+
+.events-block-item11{
+    height:97px;
+    width:97px;
+    background-color: #FF7000;
+}
+
+
+.row .events-col-block{
+    height:370px;
+    width:524px;
+    background-color:#FF7000;
+    
+    
+  
+}
