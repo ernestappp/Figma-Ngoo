@@ -18,8 +18,8 @@ body::before{
 .nav-bar a{
    text-decoration: none;
    list-style-image: none;
- 
 }
+
 /*
 nav {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -74,7 +74,6 @@ nav {
     border-color: #FF7000;
     background-color: #FF7000;
     color:white;
-
   }
  
 .welcome .container h1 span{
@@ -261,9 +260,9 @@ left:30%;
 }
 
 .events{
-    height:1037px;
+  
     background-color: #222222;
-    padding-bottom: 130px;
+    padding-bottom: 70px;
    
 }
 
@@ -303,18 +302,126 @@ color:#666666;
 padding-top:50px;
 }
 
+.events span{
+    color: #FF7000;
+}
+
+.events h4{
+    font-weight:400;
+}
+.events p{
+    font-weight: 100;
+}
 .events-block-item11{
     height:97px;
     width:97px;
     background-color: #FF7000;
+    text-align: center;
+ 
 }
 
+.events .date span{
+width: 97px;
+height: 97px;
+text-align: center;
+font-size: 30px;
+font-family: sans-serif;
+color: white;
+text-align: center;
+}
 
+.events-col-block h3{
+color:#FF7000
+
+
+}
 .row .events-col-block{
     height:370px;
     width:524px;
+    background-color:#666666;
+}
+
+
+.partners-line{
+    height:3px;
+    width:100px;
     background-color:#FF7000;
-    
-    
+    display:block;
+    margin:auto;
+}
+
+
+.text-heading-partners span{
+    color:#FF7000; 
+}
+
+.join-line{
+    height:117px;
+    background-color: #FF7000;
+}
+
+.join-line p{
+    color:white;
+    font-weight: normal;
+}
+
+.container .button-join-line{
+    background-color: #444444;
+    color:white;
+    border:2px solid #444444;
+    border-color: #444444;
+    border-radius: 4px;
+    padding-bottom: 5px;
+    padding-top:5px;
+}
+.container .button-join-line:hover{
+    background-color: #D6D6D6;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color:white;
+    flex-direction: start;
+    line-height: 2;
+    font-weight: 400;
+}
+
+
+.contact-info{
+    background-color:black;
+    background-image: url(/Images/world-map.svg);
+
+}
+
+.contact-info p{
+    font-weight: normal;
+}
+.contact-info .col-line-contact-info{
+    height:3px;
+    width:100px;
+    background-color:#FF7000;
+}
+
+
+.col-header-contact-info h4{
+    color:#FF7000;
+    margin:0;
+    padding:0;
+}
+
+.col-body-contact-info a{
+    margin-left:0;
+}
+.contact-info .contact-icons a{
+    color:#FF7000;
   
+}
+
+.footer{
+    height:121px;
+    background:#333333;
+    color:white;
+    display:block;
+    align-items: center;
+    font-weight: normal;
 }

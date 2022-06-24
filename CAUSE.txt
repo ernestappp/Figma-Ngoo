@@ -1,0 +1,21 @@
+ <div class="cause">
+        <div class="container">
+            <div class="cause-heading">
+                <h1><span>Urgent</span>Cause</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1><span>#School </span>for South Kampar's Students</h1>
+                    <p>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent.</p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="image-box d-flex justify-content-center align-items-end">
+                        <a href="" class="btn btn-warning d-flex align-items-center justify-content-center">DONATE
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
